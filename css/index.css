@@ -1,0 +1,260 @@
+html {
+    font-family: sans-serif;
+}
+
+html,
+body,
+header,
+section,
+footer,
+div,
+ul,
+ol,
+li,
+img,
+a,
+span,
+em,
+i,
+del,
+legend,
+center,
+strong,
+var,
+fieldset,
+form,
+label,
+dl,
+dt,
+dd,
+cite,
+input,
+hr,
+time,
+mark,
+code,
+figcaption,
+figure,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-style: normal;
+    outline: none;
+}
+
+html,
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    background-color: #fff;
+    width: 100%;
+    min-height: 100%;
+    font-family: "黑体";
+}
+
+body {
+    font-size: 16px;
+}
+
+
+nav,
+article,
+aside,
+details,
+main,
+header,
+footer,
+section,
+fieldset,
+figcaption,
+figure {
+    display: block;
+}
+
+img,
+a,
+button,
+em,
+del,
+strong,
+var,
+label,
+cite,
+small,
+time,
+mark,
+code,
+textarea {
+    display: inline-block;
+}
+
+header,
+section,
+footer {
+    position: relative;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+input,
+button,
+textarea {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    line-height: 1em;
+    /*-webkit-appearance:none;*/
+    background-color: rgba(0, 0, 0, 0);
+}
+
+span {
+    display: inline-block;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+label,
+.wordWrap {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+.clearfix:after {
+    content: ' ';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/*Chrome 下去除type ==  "number"  时 的右侧图标*/
+#newCode::-webkit-outer-spin-button,
+#newCode::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+/*火狐 下去除type ==  "number"  时 的右侧图标*/
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/*IE下去除 右边的×*/
+input::-ms-clear {
+    display: none;
+}
+
+/*基本样式*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.of {
+    overflow: hidden;
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.cl {
+    clear: both;
+}
+
+.dis {
+    display: block;
+}
+
+.boxbor {
+    box-sizing: border-box;
+}
+
+/*超出隐藏-单行*/
+.text-hidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+/*超出隐藏-多行*/
+.text-hidden-n {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    line-height: 0.5rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    font-weight: bold;
+    overflow: hidden;
+    box-shadow: 0 2px 5px #cccc;
+    color: #000;
+    background: #ffff;
+    z-index: 19827442;
+}
+header span.fr{
+    position: absolute;
+    right: 0.15rem;
+    top: 0;
+    font-size: 0.16rem;
+    font-weight: normal;
+    color: #555555;
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <style>
+        .element {
+            position: relative;
+            olor: #fff;
+            text-align: center;
+            line-height: 120px;
+            transform-style: preserve-3d;
+            transition: 1s;
+        }
+
+        .element, .front, .back {
+            width: 90px;
+            height: 120px;
+            backface-visibility: hidden;
+        }
+
+        .front, .back {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .front {
+            background: #f00;
+        }
+
+        .back {
+                background: #0f0;
+            transform: rotateX(180deg);
+        }
+
+        .element:hover {
+            transform: rotateX(180deg);
+        }
+
+    </style>
+</head>
+<body>
+<div class="element">
+    <div class="front">前面</div>
+    <div class="back">背面</div>
+</div>
+</body>
